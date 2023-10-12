@@ -1,7 +1,6 @@
 # How to check downloaded big files
 
-It is good practise to check the integrity of downloaded big files to prevent using corrupted files. If the file's correct hash-value (e.g. SHA-256 hash) is available you should calculate the downloaded files hash-value and compare it to the correct one. If they are the same then your download 
-have succeeded without errors.
+It is good practise to check the integrity of downloaded big files to prevent you from using corrupted files. If the file's correct hash-value (e.g. SHA-256 hash) is available you should calculate the downloaded files hash-value and compare it to the correct one. If they are the same then your download have succeeded without errors.
 
 You can calculate the SHA-256 hash for a file in Windows by using powershell and command **get-filehash filename**. Below is an example how Windows user john calculates the downloaded VirtualBox ova-file's LE18SERVER.ova SHA-256 hash.  
 
