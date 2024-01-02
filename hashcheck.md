@@ -1,6 +1,6 @@
 # How to check downloaded big files
 
-“Ensure the integrity of large downloaded files by comparing their SHA-256 hash with the correct one. If they match, the download is error-free. In Windows, use PowerShell’s get-filehash filename to calculate the SHA-256 hash. For example, Windows user John calculates the SHA-256 hash for the downloaded VirtualBox ova-file ‘LE18SERVER.ova’.”
+Ensure the integrity of large downloaded files by comparing their SHA-256 hash with the correct one. If they match, the download is error-free. In Windows, use PowerShell’s get-filehash filename to calculate the SHA-256 hash. For example, Windows user John calculates the SHA-256 hash for the downloaded VirtualBox ova-file ‘LE18SERVER.ova’.
 ```
 C:\Users\john>powershell get-filehash c:\Users\john\Downloads\LESERVER18LTS.ova
 
